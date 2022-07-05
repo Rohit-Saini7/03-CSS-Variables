@@ -6,6 +6,49 @@
     <title>03 - CSS Variables</title>
   </head>
   <body>
+    <div class="main-body">
+      <h2>
+        This is proof that you can change
+        <span class="hl">CSS</span> with
+        <span class="hl">JS</span>
+      </h2>
+      <div class="controls">
+        <label for="spacing">Spacing:</label>
+        <input
+          type="range"
+          name="spacing"
+          id="spacing"
+          min="10"
+          max="200"
+          value="10"
+          data-sizing="px"
+        />
+
+        <label for="blur">Blur:</label>
+        <input
+          type="range"
+          name="blur"
+          id="blur"
+          min="0"
+          max="25"
+          value="0"
+          data-sizing="px"
+        />
+
+        <label for="base">Base Color</label>
+        <input type="color" name="base" id="base" value="#ffc600" />
+      </div>
+
+      <img src="https://source.unsplash.com/7bwQXzbF6KE/800x500" alt="Image" />
+    </div>
+    <footer class="footer">
+      Background Image by
+      <a href="https://unsplash.com/@pawel_czerwinski">Pawel Czerwinski</a>
+      on
+      <a href="https://unsplash.com/s/photos/blue-abstract-background"
+        >Unsplash</a
+      >
+    </footer>
     <script src="./js/index.js"></script>
   </body>
 </html>

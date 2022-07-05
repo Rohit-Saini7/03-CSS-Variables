@@ -1,0 +1,47 @@
+:root {
+  --base: #ffc600;
+  --spacing: 10px;
+  --blur: 0;
+}
+
+img {
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur));
+}
+
+.hl {
+  color: var(--base);
+}
+
+body {
+  text-align: center;
+  background: url(../assets/background.jpg);
+  background-size: cover;
+  color: white;
+  font-family: "helvetica neue", sans-serif;
+  font-weight: 100;
+  font-size: 30px;
+}
+
+.controls {
+  margin-bottom: 50px;
+}
+
+input {
+  width: 100px;
+}
+
+.footer {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+}
+
+.footer > a {
+  color: white;
+  margin: 0 1rem;
+}
